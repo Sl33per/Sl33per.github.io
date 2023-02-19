@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Tim. Eric Doughery's Portfolio</title>
+		<link rel="stylesheet" href="styles.css">
+	
+		<script>
+			function showContent(e) {
+				var a = document.getElementById(e);
+				if (a.style.display === "") {
+					a.style.display = "block";
+				} else {
+					a.style.display = "";
+				}
+			}
+		</script>
+	</head>
 	<body>
-	<style>
-	div.foo {
-		text-align:center;
-	}
-	</style>
-		<div class = "foo">
-			<h1>Tim. Eric Doughery</h1>
-			<h2>About me:</h2>
-			<h2>Projects:</h2>
+		<h1>Tim. Eric Doughery</h1>
+		<h2>About me:</h2>
+		
+		<h2>Projects:</h2>
+		<div><button id="aiButton" onclick="showContent('aiContent')"><h3>Code from Intro to A.I</h3></button></div>
+		<div id = "aiContent">
+			<p>The various programs below were written for an introductory course I took at U.W
+				about A.I. These programs were written before I became more accustomed to using Github,
+				only being uploaded recently, and as such, no change history is available for them. </p>
+			<table>
+				<thead>
+					<th>Program</th>
+					<th>Brief Description</th>
+				</thead>
+			</table>
 		</div>
+			
+				
+		<div><button id ="annbutton" onclick="showContent('annContent')"><h3>Code from Intro to A.N.N</h3></button></div>
+		<div id="annContent">  
+			<p>The program below was a semester-long group project that was written for an introductory course
+				about neural networks. For the project, my group members and I had to write various reports detailing
+				the objective and intended timeline of our project, its progress, and a conclusion detailing our
+				findings.</p>
+		</div>
+		
 	</body>
 </html>
