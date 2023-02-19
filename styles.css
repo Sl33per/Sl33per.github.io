@@ -1,10 +1,24 @@
 * {
 	text-align:center;
 }
-#aiContent {
-	display:none;
+
+.headers {
+	color:white;
+	background-color: #8ac0d1;
+	border:none;
+	border-radius:25px;
+	padding:8px;
 }
 
-#annContent {
+#aiButton, #annButton {
+	color:white;
+	background-color: #8ac0d1;
+	border:none;
+	border-radius:25px;
+	padding:16px 32px;
+	margin: 8px;
+}
+
+#aiContent, #annContent {
 	display:none;
 }
