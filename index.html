@@ -18,37 +18,72 @@
 	<body>
 		<h1>Tim. Eric Doughery</h1>
 		<!--email & github-->
-		<h2 class="headers">About me:</h2>
-		<!--
+		
+		
+		<h2>About me:</h2>
+		<div id="aboutMe"><p>
 			Hello, My name is Tim. (friends and famiy may call me Eric), and I am a U.W. graduate looking for work experience. At U.W. Madison, I studied computer science,
 		with much of my interest being in A.I. and neural networks. I am willing to admit that I do not have relevant work experience, and I am hoping to fix that. In college,
 		though, I can say that I did work on a number of programming projects with other students. In my free time, I write small little programs from time to time as a way to
 		keep myself from getting rusty, and I have also taken up learning sql since I've seen multiple job listings prefer applicants that know it. 
 		
-		Strengths:
-			Knows Java, python, & C
-			adaptability and quick to learn
-			Strong work ethic
-			detail-oriented
-			communication 
-			teamwork
-			Understands how to use Microsoft Office software
-			
-		Values:
+		<strong><div>Strengths:</div></strong></p>
+		<ul>
+			<li>Knows Java, python, & C</li>
+			<li>adaptability and quick to learn</li>
+			<li>Strong work ethic</li>
+			<li>detail-oriented</li>
+			<li>communication</li>
+			<li>teamwork</li>
+			<li>Understands how to use Microsoft Office software</li>
+		</ul>
+		<p><strong>Values:</strong>
 			Whenever I'm working on something, whether it's with other people, or just by myself, my core aim is always dependability. If I say I'm going to finish something,
 		I fully intend to, and I do not mean something half-done. I try my best to be as accurate and correct in whatever I'm doing in the most efficient way possible.
 		Some might interpret that as me being a perfectionist, and while I admit that I am, I also understand when something has to be perfect or when it has to be punctual.
-		-->
-		<h2 class="headers">Projects:</h2>
+		</p></div>
+		
+		
+		<h2>Projects:</h2>
 		<div><button id="aiButton" onclick="showContent('aiContent')"><h3>Code from Intro to A.I</h3></button></div>
 		<div id = "aiContent">
 			<p>The various programs below were written for an introductory course I took at U.W
 				about A.I. These programs were written before I became more accustomed to using Github. </p>
 			<table>
 				<thead>
-					<th>Program</th>
-					<th>Brief Description</th>
+					<th style="width:200px"><strong>Project Name</strong></th>
+					<th style="width:800px"><strong>Brief Description</strong></th>
 				</thead>
+				<tbody>
+					<tr>
+						<td>Probability</td>
+						<td><p>A classifier with a given corpus that predicts whether a document was written in 2016 or 2020.</p></td>
+					</tr>
+					<tr>
+						<td>PCA</td>
+						<td><p>A facial analysis program using principal component analysis.</p></td>
+					</tr>
+					<tr>
+						<td>Linear Regression</td>
+						<td><p>Reads a given bodyfat dataset and builds several models on top of it.</p></td>
+					</tr>
+					<tr>
+						<td>Neural Networks</td>
+						<td><p>A simple deep learning model for predicting labels for the MNIST dataset.</p></td>
+					</tr>
+					<tr>
+						<td>Game A.I.</td>
+						<td><p>An A.I. player for a modified version of Teeko.</p></td>
+					</tr>
+					<tr>
+						<td>A* Search</td>
+						<td><p>Uses the A* search algorithm to solve the 8-tile puzzle.</p></td>
+					</tr>
+					<tr>
+						<td>Reinforcement Learning</td>
+						<td><p>Implementation of both the Q-learning and SARSA algorithms for the Frozen Lake environment.</p></td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
 			
