@@ -17,6 +17,10 @@ h2 {
 	padding:8px;
 }
 
+#contact {
+	text-align:center;
+}
+
 #aboutMe, #aiContent, #annContent {
 	color:white;
 	background-color:#3e869d;
